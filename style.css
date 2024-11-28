@@ -27,7 +27,6 @@ body a {
   inset: 0px 0px;
   height: fit-content;
   padding: 15px 70px;
-
   background-color: black;
   display: flex;
   align-items: center;
@@ -68,7 +67,7 @@ body a {
   justify-content: center;
   align-items: center;
   flex-wrap: wrap;
-  background-color: black;
+  background-color: var(--black);
   gap: 5%;
   padding: 6.3% 0%;
 }
@@ -502,7 +501,7 @@ hr {
 .col-left,
 .col-right {
   flex-basis: 330px;
-  height: fit-content;
+  height: auto;
   margin: 2% 3%;
   padding: 2% 2%;
 }
@@ -569,13 +568,16 @@ input,
 textarea {
   background-color: #000000;
   border: 1px solid grey;
-  color: white;
+  color:white;
   border-radius: 5px;
+ resize: none;
   outline: none;
 }
 
 .txtarea {
   padding: 10px 0px 0px 10px;
+  width: 305px;
+  height: 120px;
 }
 
 .submitbtn {
@@ -618,7 +620,7 @@ footer {
     display: block;
   }
   .header {
-    background-color: #300dbb;
+    background-color: rgb(48, 13, 187);
     border-bottom: 3.5px solid white;
   }
 
