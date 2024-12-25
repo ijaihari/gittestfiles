@@ -13,4 +13,4 @@ menuIcon.addEventListener("click", () => {
 let year = new Date();
 year = year.getFullYear();
 const footer = document.querySelector(".footer");
-footer.innerHTML = `Created by Jai Hari Nataraj | &copy; ${year} All rights reserved.`;
+footer.innerHTML = `Created by Jai Hari Nataraj | &copy; ${year} All rights received.`;
