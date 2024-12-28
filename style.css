@@ -43,11 +43,10 @@ body a {
   inset: 0px 0px;
   height: fit-content;
   padding: 15px 70px;
-  background-color: black;
+  background-color: #5900ff;
   display: flex;
   align-items: center;
   justify-content: space-between;
-  border-bottom: 5px solid #300dbb;
   z-index: 99;
 }
 
@@ -61,14 +60,17 @@ body a {
 
 .navbar a {
   color: #ffffff;
-  margin-left: 50px;
+  padding: 5px 20px;
+  border-radius: 50px;
+  margin-left: 30px;
   font-weight: bold;
   font-size: 1.2rem;
 }
 
 .navbar a:hover {
   cursor: pointer;
-  color:grey;
+  color: #5900ff;
+  background-color: white;
 }
 
 #menu-icon {
@@ -661,15 +663,6 @@ body a {
   background-image: linear-gradient(to bottom right, rgb(0, 68, 255), violet);
 }
 
-/* .social .fa-linkedin-square:hover {
-  color: #036eb0;
-  background-color: white;
-}
-
-.social .fa-github:hover {
-  color: darkviolet;
-  background-color: white;
-} */
 
 .contact-list,
 .contact-links {
@@ -754,8 +747,7 @@ textarea {
   }
 
   .header {
-    background-image: linear-gradient(to bottom right, black, rgb(23, 22, 22));
-    border-bottom: 3px solid rgb(71, 31, 249);
+    
     padding: 10px 30px;
   }
 
