@@ -331,7 +331,16 @@ body a {
   font-size: 1.3rem;
   padding: 5px 0px;
 }
-
+.act-achiev{
+  text-align: justify;
+  line-height: 1.5;
+}
+.achiev-hl{
+  background-image: linear-gradient(to bottom right, blue, violet);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
 .h3 {
   font-size: 1.3rem;
   padding: 5px 0px;
